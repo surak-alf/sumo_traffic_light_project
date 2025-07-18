@@ -1,0 +1,4 @@
+venv/
+echo "*.net.xml" >> .gitignore  # Generated files
+echo "*.pyc" >> .gitignore
+echo "__pycache__/" >> .gitignore
