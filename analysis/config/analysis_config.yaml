@@ -1,0 +1,7 @@
+output_dir: "../output"
+images_dir: "../images"
+
+scenarios:
+  Base_Case: "tripinfo_base.xml"
+  Optimized_Lights: "tripinfo_optimized.xml"
+  No_Traffic_Lights: "tripinfo_no_tls.xml"
