@@ -27,6 +27,31 @@ A complete simulation of a signalized intersection using SUMO (Simulation of Urb
 └── analysis/
 └── compare.py # Analysis script (optional) **
 
+# Project Structure 📂
+
+This section outlines the directory and file organization of the `sumo_traffic_light_project`.
+
+* **sumo_traffic_light_project/**
+    * **config/**
+        * `traffic_lights.tll.xml` # Traffic timing definitions
+    * **networks/**
+        * `intersection.net.xml` # Generated network file
+        * `intersection.nod.xml` # Node definitions
+        * `intersection.edg.xml` # Edge definitions
+        * `intersection.con.xml` # Connection definitions
+        * `network.netcfg.xml` # Network configuration
+    * **routes/**
+        * `vehicles.rou.xml` # Vehicle routes and flows
+    * **simulations/**
+        * `simulation.sumocfg` # Main simulation config
+        * **output/** # Simulation outputs
+            * `tripinfo.xml`
+            * `summary.xml`
+            * **images/** # Visualization assets
+                * `simulation.gif`
+    * **analysis/**
+        * `compare.py` # Analysis script (optional)
+
 
 ## Prerequisites 🛠️
 
