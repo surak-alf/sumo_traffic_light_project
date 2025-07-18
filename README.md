@@ -6,7 +6,7 @@ A complete simulation of a signalized intersection using SUMO (Simulation of Urb
 
 ## Project Structure 📂
 
-sumo_traffic_light_project/
+**sumo_traffic_light_project/
 ├── config/
 │ └── traffic_lights.tll.xml # Traffic light timing definitions
 ├── networks/
@@ -25,7 +25,7 @@ sumo_traffic_light_project/
 ├── images/ # Visualization assets
 │ └── simulation.gif
 └── analysis/
-└── compare.py # Analysis script (optional)
+└── compare.py # Analysis script (optional) **
 
 
 ## Prerequisites 🛠️
@@ -40,7 +40,7 @@ sumo_traffic_light_project/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/sumo_traffic_light_project.git
+   git clone https://github.com/surak-alf/sumo_traffic_light_project.git
    cd sumo_traffic_light_project
 
 2. **Generate the network**:
