@@ -1,10 +1,10 @@
 <configuration>
     <input>
-        <node-files value="intersection.nod.xml"/>
-        <edge-files value="intersection.edg.xml"/>
-        <connection-files value="intersection.con.xml"/>
+        <node-files value="networks/intersection.nod.xml"/>
+        <edge-files value="networks/intersection.edg.xml"/>
+        <connection-files value="networks/intersection.con.xml"/>
     </input>
     <output>
-        <output-file value="intersection.net.xml"/>
+        <output-file value="networks/intersection.net.xml"/>
     </output>
 </configuration>
