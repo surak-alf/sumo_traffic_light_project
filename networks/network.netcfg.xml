@@ -1,10 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <input>
         <node-files value="intersection.nod.xml"/>
         <edge-files value="intersection.edg.xml"/>
-        <connection-files value="intersection.con.xml"/> <!-- Add this line -->
+        <connection-files value="intersection.con.xml"/>
     </input>
     <output>
         <output-file value="intersection.net.xml"/>
     </output>
+    <processing>
+        <no-internal-links value="true"/>
+    </processing>
 </configuration>
