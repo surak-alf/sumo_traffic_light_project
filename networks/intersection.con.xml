@@ -1,17 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <connections>
-    <!-- West to East connections -->
+    <!-- West-East connections -->
     <connection from="west_to_center" to="center_to_east" fromLane="0" toLane="0"/>
     <connection from="west_to_center" to="center_to_north" fromLane="0" toLane="0"/>
+    <connection from="west_to_center" to="center_to_south" fromLane="0" toLane="0"/>
     
-    <!-- East to West connections -->
+    <!-- East-West connections -->
     <connection from="east_to_center" to="center_to_west" fromLane="0" toLane="0"/>
+    <connection from="east_to_center" to="center_to_north" fromLane="0" toLane="0"/>
     <connection from="east_to_center" to="center_to_south" fromLane="0" toLane="0"/>
     
-    <!-- North to South connections -->
+    <!-- North-South connections -->
     <connection from="north_to_center" to="center_to_south" fromLane="0" toLane="0"/>
     <connection from="north_to_center" to="center_to_east" fromLane="0" toLane="0"/>
+    <connection from="north_to_center" to="center_to_west" fromLane="0" toLane="0"/>
     
-    <!-- South to North connections -->
+    <!-- South-North connections -->
     <connection from="south_to_center" to="center_to_north" fromLane="0" toLane="0"/>
+    <connection from="south_to_center" to="center_to_east" fromLane="0" toLane="0"/>
     <connection from="south_to_center" to="center_to_west" fromLane="0" toLane="0"/>
 </connections>
