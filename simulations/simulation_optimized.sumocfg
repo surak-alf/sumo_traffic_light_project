@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="../networks/intersection.net.xml"/>
+        <route-files value="../routes/vehicles.rou.xml"/>
+        <additional-files value="../config/traffic_lights_optimized.tll.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+    <output>
+        <tripinfo-output value="../output/tripinfo_optimized.xml"/>
+    </output>
+</configuration>
