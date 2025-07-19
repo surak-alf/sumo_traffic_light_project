@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="../networks/intersection.net.xml"/>
+        <route-files value="../routes/vehicles.rou.xml"/>
+        <additional-files value="../config/traffic_lights.tll.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+    <output>
+        <tripinfo-output value="../output/tripinfo.xml"/>
+    </output>
+</configuration>

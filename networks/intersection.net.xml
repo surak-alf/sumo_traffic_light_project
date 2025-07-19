@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-07-18 12:14:58 by Eclipse SUMO netconvert Version 1.23.1
+<!-- generated on 2025-07-19 15:40:04 by Eclipse SUMO netconvert Version 1.23.1
 <netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <node-files value="intersection.nod.xml"/>
-        <edge-files value="intersection.edg.xml"/>
-        <connection-files value="intersection.con.xml"/>
+        <node-files value="networks/intersection.nod.xml"/>
+        <edge-files value="networks/intersection.edg.xml"/>
+        <connection-files value="networks/intersection.con.xml"/>
     </input>
 
     <output>
-        <output-file value="intersection.net.xml"/>
+        <output-file value="networks/intersection.net.xml"/>
     </output>
 
     <junctions>
