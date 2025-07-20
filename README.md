@@ -2,7 +2,7 @@
 
 A complete simulation of a signalized intersection using SUMO (Simulation of Urban MObility), demonstrating traffic flow optimization with configurable traffic light timing.
 
-![Simulation Demo](images/simulation.gif) *Example of the running simulation*
+![Simulation Demo](images/sumo.gif) 
 
 # Project Structure 📂
 
