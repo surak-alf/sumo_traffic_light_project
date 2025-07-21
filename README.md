@@ -1,5 +1,9 @@
 # SUMO Traffic Light Simulation Project 🚦🚗
 
+This project simulates and analyzes traffic flow at a signalized intersection using SUMO (Simulation of Urban MObility) to compare three scenarios: a base case with fixed-time traffic lights, an optimized case with adjusted signal timing, and an uncontrolled intersection without signals.
+
+This repository contains the results of a traffic simulation, comparing different scenarios to evaluate their impact on traffic flow and efficiency.
+
 A complete simulation of a signalized intersection using SUMO (Simulation of Urban MObility), demonstrating traffic flow optimization with configurable traffic light timing.
 
 ![Simulation Demo](images/sumo.gif) 
