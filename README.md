@@ -32,8 +32,8 @@ This section outlines the directory and file organization of the `sumo_traffic_l
 
 ## Prerequisites 🛠️
 
-- [SUMO](https://www.eclipse.org/sumo/) (Version 1.15.0 or newer)
-- Python 3.8+ (for analysis scripts)
+- [SUMO](https://www.eclipse.org/sumo/) 
+- Python 3.8+ 
 - Recommended VSCode extensions:
   - XML Tools
   - Python
