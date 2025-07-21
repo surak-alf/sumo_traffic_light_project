@@ -55,6 +55,7 @@ This section outlines the directory and file organization of the `sumo_traffic_l
 
 
 sumo_traffic_light_project/
+.
 ├── config/
 │   ├── traffic_lights.tll.xml         # Base traffic light timing
 │   └── traffic_lights_optimized.tll.xml # Optimized traffic light timing
