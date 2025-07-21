@@ -52,7 +52,7 @@ sumo_traffic_light_project/**
     * **analysis/**
         * `compare.py` # Analysis script (optional)
 
-"""
+``````
 sumo_traffic_light_project/
 ├── config/
 │   ├── traffic_lights.tll.xml         # Base traffic light timing
@@ -74,7 +74,7 @@ sumo_traffic_light_project/
 │   └── requirements.txt             # Python dependencies
 ├── output/                          # Simulation outputs
 └── images/                          # Generated visualizations
-"""
+``````
 
 
 ## Prerequisites 🛠️
