@@ -3,6 +3,26 @@
 This project simulates and analyzes traffic flow at a signalized intersection using SUMO (Simulation of Urban MObility) to compare three scenarios: a base case with fixed-time traffic lights, an optimized case with adjusted signal timing, and an uncontrolled intersection without signals.
 
 This repository contains the results of a traffic simulation, comparing different scenarios to evaluate their impact on traffic flow and efficiency.
+## What is Being Simulated?
+
+The project evaluates three traffic scenarios at a 4-way intersection:
+
+### 1️⃣ Base Case (Standard Traffic Lights)
+This scenario uses fixed-time traffic signals with equal green phases for all directions.
+* **Typical behavior:** East-West (EW) and North-South (NS) flows take turns. Fixed 30-second green lights, 6-second yellow intervals.
+* **Limitation:** Not adaptive to real-time traffic, which can cause unnecessary delays if one direction has more vehicles.
+
+### 2️⃣ Optimized Traffic Lights
+This scenario features modified signal timing based on traffic demand.
+* **Key improvements:**
+    * Longer green time (40s) for the busier direction (e.g., East-West).
+    * Shorter green time (20s) for the less busy direction (North-South).
+    * Reduced yellow time (3s) to maximize traffic flow.
+* **Expected benefit:** Lower average waiting times and higher throughput (more vehicles passing per hour).
+
+### 3️⃣ No Traffic Lights (Uncontrolled Intersection)
+In this scenario, vehicles follow priority rules (first-come-first-served) at an intersection without signals.
+* **Problems observed:** Deadlocks when too many vehicles arrive at once, longer travel times due to unregulated merging, and lower efficiency compared to signalized cases.
 
 A complete simulation of a signalized intersection using SUMO (Simulation of Urban MObility), demonstrating traffic flow optimization with configurable traffic light timing.
 
