@@ -31,7 +31,6 @@ A complete simulation of a signalized intersection using SUMO (Simulation of Urb
 # Project Structure 📂
 
 This section outlines the directory and file organization of the `sumo_traffic_light_project`.
-***
 sumo_traffic_light_project/**
     * **config/**
         * `traffic_lights.tll.xml` # Traffic timing definitions
@@ -53,8 +52,8 @@ sumo_traffic_light_project/**
     * **analysis/**
         * `compare.py` # Analysis script (optional)
 
-
-***sumo_traffic_light_project/
+"""
+sumo_traffic_light_project/
 ├── config/
 │   ├── traffic_lights.tll.xml         # Base traffic light timing
 │   └── traffic_lights_optimized.tll.xml # Optimized traffic light timing
@@ -75,7 +74,7 @@ sumo_traffic_light_project/**
 │   └── requirements.txt             # Python dependencies
 ├── output/                          # Simulation outputs
 └── images/                          # Generated visualizations
-***
+"""
 
 
 ## Prerequisites 🛠️
