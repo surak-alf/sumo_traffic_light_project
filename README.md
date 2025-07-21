@@ -54,6 +54,30 @@ This section outlines the directory and file organization of the `sumo_traffic_l
         * `compare.py` # Analysis script (optional)
 
 
+sumo_traffic_light_project/
+├── config/
+│   ├── traffic_lights.tll.xml         # Base traffic light timing
+│   └── traffic_lights_optimized.tll.xml # Optimized traffic light timing
+├── networks/
+│   ├── intersection.net.xml         # Generated network file
+│   ├── intersection.nod.xml         # Node definitions
+│   ├── intersection.edg.xml         # Edge definitions
+│   ├── intersection.con.xml         # Connection definitions
+│   └── network.netcfg.xml           # Network configuration
+├── routes/
+│   └── vehicles.rou.xml             # Vehicle routes
+├── simulations/
+│   ├── simulation.sumocfg           # Base case simulation configuration
+│   ├── simulation_no_tls.sumocfg    # No traffic lights simulation configuration
+│   └── simulation_optimized.sumocfg # Optimized timing simulation configuration
+├── analysis/
+│   ├── analyze.py                   # Main analysis script
+│   └── requirements.txt             # Python dependencies
+├── output/                          # Simulation outputs
+└── images/                          # Generated visualizations
+
+
+
 ## Prerequisites 🛠️
 
 - [SUMO](https://www.eclipse.org/sumo/) 
